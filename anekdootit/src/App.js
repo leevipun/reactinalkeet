@@ -45,6 +45,7 @@ const App = () => {
       <div>
         <h3>Anecdote of the day</h3>
         <p>{anecdotes[selected]}</p>
+        <p>has {voteData[selected].votes}</p>
         <button onClick={handleClick}>Next anecdote</button>
         <button onClick={handleVoteUp}>Vote Up</button>
       </div>
